@@ -15,6 +15,6 @@ serde_derive = "1.0.228"
 structopt = "0.3.26"
 byteorder = "1.5.0"
 hex = "0.4.3"
-reqwest = { version = "0.12.23", default-features = false, features = ["rustls-tls", "gzip", "brotli", "deflate", "tokio-rustls"] }
+reqwest = { version = "0.12.28", default-features = false, features = ["rustls-tls", "gzip", "brotli", "deflate", "tokio-rustls"] }
 easybreach_bloom = {path = "../easybreach_bloom"}
 bincode = { version = "2.0.1"}
