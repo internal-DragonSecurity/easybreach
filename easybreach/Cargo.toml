@@ -10,7 +10,7 @@ tokio = { version = "1.49.0", features = ["full"]}
 serde = "1.0.228"
 serde_json = "1.0.145"
 serde_derive = "1.0.228"
-tracing = "0.1.41"
+tracing = "0.1.44"
 sha-1 = "0.10.1"
 base16ct = { version = "0.3.0", features = ["alloc", "std"]}
 structopt = "0.3.26"
