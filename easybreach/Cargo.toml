@@ -5,15 +5,15 @@ edition = "2021"
 
 [dependencies]
 anyhow = "*"
-axum = "0.8.6"
+axum = "0.8.8"
 tokio = { version = "1.50.0", features = ["full"]}
 serde = "1.0.228"
-serde_json = "1.0.145"
+serde_json = "1.0.149"
 serde_derive = "1.0.228"
-tracing = "0.1.41"
+tracing = "0.1.44"
 sha-1 = "0.10.1"
 base16ct = { version = "0.3.0", features = ["alloc", "std"]}
 structopt = "0.3.26"
 easybreach_bloom = {path = "../easybreach_bloom"}
-tower-http = { version = "0.6.6", features = ["cors"] }
+tower-http = { version = "0.6.8", features = ["cors"] }
 http = "1.4.0"
