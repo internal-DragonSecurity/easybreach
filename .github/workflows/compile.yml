@@ -102,7 +102,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: sigstore/cosign-installer@7e8b541eb2e61bf99390e1afd4be13a184e9ebc5 # v3.10.1
         with:
-          cosign-release: 'v2.3.0'
+          cosign-release: 'v2.4.3'
       - name: Check install!
         run: cosign version
 
@@ -123,7 +123,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: sigstore/cosign-installer@7e8b541eb2e61bf99390e1afd4be13a184e9ebc5 # v3.10.1
         with:
-          cosign-release: 'v2.3.0'
+          cosign-release: 'v2.4.3'
       - name: Check install!
         run: cosign version
 
