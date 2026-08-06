@@ -64,7 +64,7 @@ jobs:
         with:
           path: binaries
       - name: Release
-        uses: softprops/action-gh-release@3bb12739c298aeb8a4eeaf626c5b8d85266b0e65 # v2
+        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228 # v3
         with:
           fail_on_unmatched_files: true
           files: |
@@ -102,7 +102,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: sigstore/cosign-installer@7e8b541eb2e61bf99390e1afd4be13a184e9ebc5 # v3.10.1
         with:
-          cosign-release: 'v2.6.4'
+          cosign-release: 'v3.1.2'
       - name: Check install!
         run: cosign version
 
@@ -123,7 +123,7 @@ jobs:
         if: github.event_name != 'pull_request'
         uses: sigstore/cosign-installer@7e8b541eb2e61bf99390e1afd4be13a184e9ebc5 # v3.10.1
         with:
-          cosign-release: 'v2.6.4'
+          cosign-release: 'v3.1.2'
       - name: Check install!
         run: cosign version
 
