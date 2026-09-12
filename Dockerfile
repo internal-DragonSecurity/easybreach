@@ -1,4 +1,4 @@
-FROM ubuntu:24.04@sha256:224a1869083a311ef3f13648a154ba79832fbef6364d31493642ca03082da254
+FROM ubuntu:26.04@sha256:513c074113a871b51a8d16ab445c88779d6452d937a164fb5cc479f32668a41d
 # COPY /easybreach.bloom /easybreach.bloom
 ADD . .
 ENTRYPOINT ["/easybreach"]
